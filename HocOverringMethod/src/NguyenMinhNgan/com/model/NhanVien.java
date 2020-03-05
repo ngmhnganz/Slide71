@@ -1,6 +1,6 @@
 package NguyenMinhNgan.com.model;
 
-public abstract class NhanVien
+public abstract class NhanVien implements Comparable<NhanVien>
 {
 	protected int ma;
 	protected String ten;
@@ -23,5 +23,12 @@ public abstract class NhanVien
 	public String toString() {
 		return ma +"\t"+ten+"\t"+tinhLuong();
 	}
+	@Override
+	public int compareTo(NhanVien o) {
+		if (this.ma<o.ma) return -1;
+		if (this.ma>o.ma) return 1;
+		return 0;
+	}
+	
 	
 }
