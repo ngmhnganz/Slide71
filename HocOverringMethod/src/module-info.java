@@ -1,0 +1,2 @@
+module HocOverringMethod {
+}
