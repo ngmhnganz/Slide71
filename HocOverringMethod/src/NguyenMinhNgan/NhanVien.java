@@ -1,11 +1,9 @@
 package NguyenMinhNgan;
 
-public class NhanVien {
+public abstract 
+class NhanVien {
 	protected int ma;
 	protected String ten;
 	public abstract double tinhLuong();
-	public void funX()
-	{
-		
-	}
+	public abstract double tinhLuong(int ngaycong);
 }
