@@ -4,7 +4,7 @@ public class GiamDoc extends NhanVienChinhThuc {
 
 	@Override
 	public double tinhLuong() {
-		return super.tinhLuong();
+		return 1.1*super.tinhLuong();
 	}
 
 }

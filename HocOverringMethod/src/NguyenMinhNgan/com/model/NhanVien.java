@@ -1,7 +1,7 @@
-package NguyenMinhNgan;
+package NguyenMinhNgan.com.model;
 
-public abstract 
-class NhanVien {
+public abstract class NhanVien
+{
 	protected int ma;
 	protected String ten;
 	public abstract double tinhLuong();
